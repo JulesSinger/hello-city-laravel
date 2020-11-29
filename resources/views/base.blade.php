@@ -13,7 +13,9 @@
         <footer>
             <p>
                 &copy; Copyright {{ date('Y') }} &middot; 
-                @yield('about-link')
+                @if (!Route::is('about'))
+                    <a href="{{ route('about') }}">About Us</a>
+                @endif
             </p>
         </footer>
     </body>
