@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('base')
 
-        <title>About Us | Hello City</title>
+@section('content')
 
-    </head>
-    <body>
+    <p>Built with &hearts; by Jules Singer</p>
+
+    <a href="/">Back to the home page</a>
+
+@endsection
       
-        <p>Built with &hearts; by Jules Singer</p>
-        <a href="/">Back to the home page</a>
-        <footer>
-            <p>&copy; Copyright {{ date('Y') }} &middot; </p>
-        </footer>
-    </body>
-</html>
+    
+
