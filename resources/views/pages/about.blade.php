@@ -12,7 +12,7 @@
         <p>Built with &hearts; by Jules Singer</p>
         <a href="/">Back to the home page</a>
         <footer>
-            <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about">About Us</a></p>
+            <p>&copy; Copyright {{ date('Y') }} &middot; </p>
         </footer>
     </body>
 </html>
