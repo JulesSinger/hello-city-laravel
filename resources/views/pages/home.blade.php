@@ -5,7 +5,7 @@
 
     <p>It's currently {{ date('h:i A') }}.</p>
     @section('about-link')
-        <a href="/about">About Us</a>
+        <a href="{{ route('about') }}">About Us</a>
     @endsection
 @endsection
         
