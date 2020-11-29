@@ -4,11 +4,11 @@
 
 @section('content')
 
-    <img src={{ asset("/images/france.png") }} alt="France">
+    <img class="my-12 h-40" src={{ asset("/images/france.png") }} alt="France">
 
-    <p>Built with &hearts; by Jules Singer</p>
+    <h2 class="text-gray-700 text-xl">Built with <span class="text-pink-500">&hearts;</span>  by Jules Singer</h2>
 
-    <a href="/">Back to the home page</a>
+    <a class="mt-6 text-indigo-500 hover:text-indigo-700 underline" href="/">Back to the home page</a>
   
 @endsection
        
